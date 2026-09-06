@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://farmgo-app.github.io/farmgo-app/",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "start": "vite",
+    "build": "vite build && cp dist/index.html dist/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
